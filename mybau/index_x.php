@@ -1,0 +1,53 @@
+<?php include("top.php"); ?>
+
+
+<div id="wrapper2">
+<div id='content'>
+  <div id="pagetitle">WELCOME TO THE STUDENTS PORTAL OF BAU Online</div>
+  <hr /><br />
+  <p></p>
+  <p></p>
+<div class="row">
+	<div class = "col-sm-4 col-md-4 col-lg-4">
+		<ul class="nav nav-tabs nav-stacked">
+		  <li role="presentation" ><a href="./index.php">Students Info</a></li>
+		  <li role="presentation" class="active"><a href="#">LogIn</a></li>
+		</ul>
+	</div>
+
+
+	<div class = "col-sm-8 col-md-8 col-lg-8">
+		<div id="login">
+		  <div class="btn-group">
+		    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		      Account type <span class="caret"></span>
+		    </button>
+		    <ul class="dropdown-menu">
+		    	<li><a href="#">Student</a></li>
+		      <li role="separator" class="divider"></li>
+		      <li><a href="./admin">Admin</a></li>
+		      <li role="separator" class="divider"></li>
+		      <li><a href="./accounts">Accountant</a></li>
+		    </ul>
+		  </div>
+		  <hr />
+		  <form action="login.php" method="POST">
+		  Admin User: <input type="text" name="adminuser" size="30" value=""/>
+		  <br /><p></p>
+		  Password: <input type="password" name="password" size="30" value=""/>
+		  <br /><p></p><p></p>
+		  <input type="submit" value="SUBMIT"/>
+		  </form>
+  	</div>
+
+	</div>
+</div>
+
+<div style="clear:both;"></div>
+
+
+
+<hr />
+</div>
+</div>
+<?php include("footer.php"); ?>

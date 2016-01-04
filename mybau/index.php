@@ -1,56 +1,56 @@
 <?php include("top.php"); ?>
 
+<div id="wrapper2">
+<div id='content'>
+  <div id="pagetitle">WELCOME TO THE STUDENTS PORTAL OF BAU Online</div>
+  <hr /><br />
+  <p></p>
+  <p></p>
 
+<div class="row">
+  <div class="col-sm-4 col-md-4 col-lg-4">
+    <ul class="nav nav-tabs nav-stacked">
+      <li role="presentation" class="active"><a href="#">Student Info</a></li>
+      <li role="presentation"><a href="./index_x.php">LogIn</a></li>
+    </ul>
+  </div>
+  
+  <div class="col-sm-8 col-md-8 col-lg-8">
+    <div id="info">
+      <b>GENERAL STUDENTS INFORMATION</b>
+      <hr />
+      <?php
+      include"portal/connect_to_mysql.php"; 
+      $result = mysql_query("SELECT * FROM news ORDER BY id DESC LIMIT 1") or die(mysql_error());
+       
+      $num = mysql_numrows($result);
 
-<div id="pagetitle">WELCOME TO THE STUDENTS PORTAL OF BAU Online</div>
-<hr /><br />
-<p></p>
-<p></p>
+      $i = 0;
 
-<div id="info">
-<b>GENERAL STUDENTS INFORMATION</b>
-<hr />
-<?php
-include"portal/connect_to_mysql.php"; 
-$result = mysql_query("SELECT * FROM news ORDER BY id DESC LIMIT 1") or die(mysql_error());
- 
-$num = mysql_numrows($result);
+      echo '<br />';
 
-$i = 0;
+      while ($i < $num) {
 
-echo '<br />';
+      	$id = mysql_result($result, $i, "id");
+      	$news = mysql_result($result, $i, "content");
 
-while ($i < $num) {
+          $i++;
+          echo $news;
 
-	$id = mysql_result($result, $i, "id");
-	$news = mysql_result($result, $i, "content");
+      }
 
-    $i++;
-    echo $news;
-
-}
-
-?>
+      ?>
+    </div>
+  </div>
 </div>
+  
 
 
-<div id="login">
-<b><a href="admin">LOGIN</a></b>
-<hr />
-<form action="portal/login.php" method="POST">
-Student ID: <input type="text" name="studentid" size="30" value=""/>
-<br /><p></p>
-Password: <input type="password" name="password" size="30" value=""/>
-<br /><p></p><p></p>
-<input type="submit" value="SUBMIT"/>
-</form>
+  <div style="clear:both;"></div>
 
+
+
+  <hr />
 </div>
-
-<div style="clear:both;"></div>
-
-
-
-<hr />
-
-<?php include("footer.php"); ?>
+</div>
+  <?php include("footer.php"); ?>

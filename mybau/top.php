@@ -5,7 +5,9 @@
 <head>
 <title>BAU Online | Students Portal</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="http://test.bau.edu.ng/mo_tweaking/mybau/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="http://test.bau.edu.ng/mo_tweaking/mybau/style.css" />
+
 
 <script>
 function showDiv1() {
@@ -70,12 +72,10 @@ function hideDiv5() {
 
 <body>
 
-<div id="wrapper">
 <div id="header">
-<a href="http://test.bau.edu.ng/mybau">
-<img src="http://test.bau.edu.ng/mybau/images/header.png" alt="BAU Online Logo" /> </a>
-<hr />
-<br />
-</div>
+<!--img src="http://test.bau.edu.ng/mybau/images/header.png" alt="BAU Online Logo" /> </a-->
 
-<div id="content">
+<br />
+<br/>
+<br/>
+</div>

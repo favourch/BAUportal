@@ -2,7 +2,7 @@
 
 body {
 background: #eeeeee;
-background-image:url('images/bg.jpg');
+background-image:url('images/bau_Background.jpg');
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 font-size: 14px;
 }
@@ -16,10 +16,10 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 /** Set Wrapper Properties **/
 
 #wrapper{
-width: 1000px;
+width: 70%;
+padding-top: 20%;
 background-image:url('images/bg.jpg');
 margin: auto;
-padding: 20px;
 border: 1px solid #666;
 background: #ffffff;
 }
@@ -55,11 +55,15 @@ text-transform: uppercase;
 /** Set Content Properties **/
 
 #content{
-width: 95%;
+width: 60%;
 margin: auto;
-padding: 20px;
 border: 1px solid #cccccc;
 background: #ffffff;
+background-image:url('images/bg.jpg');
+}
+
+#content2{
+padding:20%;
 background-image:url('images/bg.jpg');
 }
 
@@ -68,7 +72,7 @@ background-image:url('images/bg.jpg');
 /** Set Footer Properties **/
 
 #footer{
-width: 1000px;
+width: 60%;
 margin: auto;
 padding: 20px;
 border: 2px solid #ffffff;
@@ -87,7 +91,7 @@ text-decoration: none;
 
 
 
-/** Set Info Properies on Home Page**/
+/** Set Info Properies on Home Page*
 
 #info{
 width: 450px;
@@ -104,14 +108,15 @@ float: left;
 /** Set Info Properies on Home Page**/
 
 #info{
-width: 450px;
-padding: 10px;
+width: 80%;
+padding:5%;
 border: 2px solid #ffffff;
 background: #FFFFFF;
 color: #000;
 -moz-border-radius: 5px;
 border-radius: 5px;
-float: left;
+overflow: scroll;
+/*float: left;*/
 
 }
 
@@ -119,15 +124,16 @@ float: left;
 /** Set Login Properties on Home Page**/
 
 #login{
-width: 350px;
-padding: 10px;
+margin: auto;
+width: 70%;
+padding: 3%;
 border: 2px solid #ffffff;
 /*background: #669900;*/
 background: #ddb67c;
 color: #000;
 -moz-border-radius: 15px;
 border-radius: 15px;
-float: right;
+/*float: right;*/
 text-align: right;
 }
 
