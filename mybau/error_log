@@ -1,0 +1,2 @@
+[13-Oct-2015 15:23:21 America/New_York] PHP Warning:  mysql_connect(): Unknown MySQL server host 'hostingdb.gotonames.com' (25) in /home/bauedung/public_html/test/mybau/portal/connect_to_mysql.php on line 16
+[13-Oct-2015 15:25:46 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'mo@bau.edu.ng'@'localhost' (using password: YES) in /home/bauedung/public_html/test/mybau/portal/connect_to_mysql.php on line 16

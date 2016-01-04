@@ -1,0 +1,208 @@
+/** Set General Properties for the Website **/
+
+body {
+background: #eeeeee;
+background-image:url('images/bg.jpg');
+font-family: Calibri, Verdana, Arial, serif;
+font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+color: #009900;
+font-family: Georgia, sans-serif;
+}
+
+
+/** Set Wrapper Properties **/
+
+#wrapper{
+width: 1000px;
+background-image:url('images/bg.jpg');
+margin: auto;
+padding: 20px;
+border: 1px solid #666;
+background: #ffffff;
+}
+
+
+
+/** Set Menu Properties **/
+
+#menu{
+
+margin: auto;
+padding: 10px;
+border: 1px solid #990099;
+background: #ffffff;
+text-transform: uppercase;
+}
+
+
+/** Set Page Title Properties **/
+
+#pagetitle{
+
+padding: 5px;
+border: 1px solid #990099;
+background: #990099;
+color: #ffffff;
+font-size: 14px;
+text-transform: uppercase;
+}
+
+
+
+/** Set Content Properties **/
+
+#content{
+width: 95%;
+margin: auto;
+padding: 20px;
+border: 1px solid #cccccc;
+background: #ffffff;
+background-image:url('images/bg.jpg');
+}
+
+
+
+/** Set Footer Properties **/
+
+#footer{
+width: 1000px;
+margin: auto;
+padding: 20px;
+border: 2px solid #ffffff;
+background: #21759b;
+color: #000;
+}
+
+#footer a{
+
+color: #fff;
+text-decoration: none;
+
+}
+
+
+
+
+/** Set Info Properies on Home Page**/
+
+#info{
+width: 450px;
+padding: 10px;
+border: 2px solid #ffffff;
+background: #FFFFFF;
+color: #000;
+-moz-border-radius: 5px;
+border-radius: 5px;
+float: left;
+
+}
+
+/** Set Info Properies on Home Page**/
+
+#info{
+width: 450px;
+padding: 10px;
+border: 2px solid #ffffff;
+background: #FFFFFF;
+color: #000;
+-moz-border-radius: 5px;
+border-radius: 5px;
+float: left;
+
+}
+
+
+/** Set Login Properties on Home Page**/
+
+#login{
+width: 350px;
+padding: 10px;
+border: 2px solid #ffffff;
+background: #669900;
+color: #000;
+-moz-border-radius: 15px;
+border-radius: 15px;
+float: right;
+text-align: right;
+}
+
+
+#moveleft{
+width: 300px;
+min-height: 600px;
+padding: 10px;
+border-right: 2px solid #CCCCCC;
+color: #000;
+float: left;
+}
+
+#avatar{
+float: left;
+}
+
+#name{
+padding: 3px;
+float: right;
+text-align: left;
+font-size: 28px;
+width: 180px;
+}
+
+#moveright{
+width: 600px;
+padding: 10px;
+color: #000;
+float: right;
+font-size: 16px;
+text-align: left;
+}
+
+#moveright2{
+width: 290px;
+padding: 10px;
+color: #000;
+float: left;
+font-size: 16px;
+text-align: left;
+}
+
+#moveright3{
+width: 290px;
+padding: 10px;
+color: #000;
+float: right;
+font-size: 16px;
+text-align: left;
+}
+
+th{
+width: 140px;
+background: #990099;
+vertical-align:middle;
+padding: 1px;
+}
+
+td{
+padding: 3px;
+}
+
+#divider {
+height: 10px;
+background: #990099;
+}
+
+#invisible{
+font-size: 18px;
+color: #FF0088;
+}
+
+input:focus, textarea:focus, select:focus {
+                background: white;
+				
+            }
+input{
+font-family: Calibri, Verdana, Arial, serif;
+}
