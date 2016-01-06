@@ -3,10 +3,12 @@
 
 <div id="wrapper2">
 <div id='content'>
-  <div id="pagetitle">WELCOME TO THE STUDENTS PORTAL OF BAU Online</div>
+  <div id="pagetitle">
+	  <img  id="pagetitleimg" src='./images/Bau_onlineLogo2.png' alt="BAU Logo">
+	  <p>WELCOME TO THE STUDENTS PORTAL OF BAU Online</p>
+  </div>
   <hr /><br />
-  <p></p>
-  <p></p>
+
 <div class="row">
 	<div class = "col-sm-4 col-md-4 col-lg-4">
 		<ul class="nav nav-tabs nav-stacked">
@@ -31,12 +33,12 @@
 		    </ul>
 		  </div>
 		  <hr />
-		  <form action="login.php" method="POST">
-		  Admin User: <input type="text" name="adminuser" size="30" value=""/>
+		  <form action="portal/login.php" method="POST">
+		  Username: <input type="text" name="adminuser" size="30" value=""/>
 		  <br /><p></p>
 		  Password: <input type="password" name="password" size="30" value=""/>
 		  <br /><p></p><p></p>
-		  <input type="submit" value="SUBMIT"/>
+		  <input type="submit" class='btn btn-secondary' value="SUBMIT"/>
 		  </form>
   	</div>
 
@@ -50,4 +52,4 @@
 <hr />
 </div>
 </div>
-<?php include("footer.php"); ?>
+<?php include("./footer.php"); ?>

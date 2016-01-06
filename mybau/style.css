@@ -3,6 +3,7 @@
 body {
 background: #eeeeee;
 background-image:url('images/bau_Background.jpg');
+background-size: cover;
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 font-size: 14px;
 }
@@ -43,11 +44,17 @@ text-transform: uppercase;
 #pagetitle{
 text-align: center;
 padding: 5px;
-border: 3px solid #ddb67c;
+/*border: 3px solid #ddb67c;*/
 background: #3d4e5b;
 color: #ffffff;
-font-size: 14px;
+font-size: 17px;
 text-transform: uppercase;
+}
+
+#pagetitleimg{
+	float: left;
+	height: 30px;
+	width: 90px;
 }
 
 
@@ -129,7 +136,7 @@ width: 70%;
 padding: 3%;
 border: 2px solid #ffffff;
 /*background: #669900;*/
-background: #ddb67c;
+background: #ffffff;
 color: #000;
 -moz-border-radius: 15px;
 border-radius: 15px;

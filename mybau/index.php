@@ -2,10 +2,11 @@
 
 <div id="wrapper2">
 <div id='content'>
-  <div id="pagetitle">WELCOME TO THE STUDENTS PORTAL OF BAU Online</div>
+  <div id="pagetitle">
+    <img id="pagetitleimg" src='./images/Bau_onlineLogo2.png' alt="BAU Logo">
+    <p >WELCOME TO THE STUDENTS PORTAL OF BAU Online</p>
+  </div>
   <hr /><br />
-  <p></p>
-  <p></p>
 
 <div class="row">
   <div class="col-sm-4 col-md-4 col-lg-4">
@@ -53,4 +54,4 @@
   <hr />
 </div>
 </div>
-  <?php include("footer.php"); ?>
+  <?php include("./footer.php"); ?>
