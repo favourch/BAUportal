@@ -34,7 +34,7 @@
 		  </div>
 		  <hr />
 		  <form action="portal/login.php" method="POST">
-		  Username: <input type="text" name="adminuser" size="30" value=""/>
+		  UserID: <input type="text" name="studentid" size="30" value=""/>
 		  <br /><p></p>
 		  Password: <input type="password" name="password" size="30" value=""/>
 		  <br /><p></p><p></p>

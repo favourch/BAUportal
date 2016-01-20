@@ -70,7 +70,7 @@ function hideDiv5() {
 
 </head>
 
-<body>
+<body ng-app='myApp'>
 
 <div id="header">
 <!--img src="http://test.bau.edu.ng/mybau/images/header.png" alt="BAU Online Logo" /> </a-->

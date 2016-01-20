@@ -26,7 +26,8 @@ if(mysql_num_rows($result) > 0)
        $_SESSION['profiles']= $user;
 	   
 	   mysql_close();
-	   Header("Location:profile.php");
+	   //Header("Location:profile.php");
+	   Header("Location:sidebar.php");
 	   }
 	   
 	else
