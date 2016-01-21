@@ -39,14 +39,22 @@ mysql_close();
 <?php $pagetoptitle = 'Member Page'; ?>
 <?php include("../top.php"); ?>
 
-<br />
-<p></p>
 
 <div id="moveleft">
 
-<div id="avatar">
+<!--div id="avatar">
 <?php
-echo '<img src="'.$photo.'" width="100px" border="4px" height="100px"/>';
+echo '
+    <div>
+        <div class="thumbnail">
+            <img src="'.$photo.'" />
+            <div class="caption">
+                <p> '.$first.''.$last.' </p>
+            </div>
+        </div>
+    </div>
+
+';
 ?>
 </div>
 
@@ -56,30 +64,42 @@ echo '<b>'.$first.'</b>';
 echo '<br />';
 echo $last;
 ?>
-</div>
+</div-->
 
 <div style="clear:both;"></div>
-<?php 
+<!--?php 
 echo '<br />';
 echo '<a href="checkout.php">Logout</a>';
 echo '<br />';
 echo '<a href="password.php">Change Password</a>';
 echo '<br />';
 echo '<a href="update.php">Update Information</a>';
-?>
+?-->
 <hr />
 <div id="pagetitle">MENU</div>
 <br />
-<div id="menu"><a href="profile.php">HOME</a></div>
+<div>
+        <ul class="nav nav-tabs nav-stacked">
+
+            <li role="presentation" >
+                <a href="sidebar.php"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a>
+            </li>
+            <li role="presentation" >
+                <a href="academics.php"> <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Academic Info</a>
+            </li>
+            <li role="presentation" >
+                <a href="accounts.php"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span> Student Account</a>
+            </li>
+        </ul>
+</div>
+<!--div id="menu"><a href="sidebar.php">HOME</a></div>
 <br />
 <div id="menu"><a href="academics.php">ACADEMICS</a></div>
 <br />
-<div id="menu"><a href="accounts.php">ACCOUNTS</a></div>
+<div id="menu"><a href="accounts.php">ACCOUNTS</a></div-->
 </div>
 
-
-
-
+<?php include("portal_header.php"); ?>
 <div id="moveright">
 <ul class="nav nav-tabs">
   <li role="presentation" ><a href="#home">Personal</a></li>

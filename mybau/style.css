@@ -128,6 +128,8 @@ overflow: scroll;
 }
 
 
+
+
 /** Set Login Properties on Home Page**/
 
 #login{
@@ -146,7 +148,8 @@ text-align: right;
 
 
 #moveleft{
-width: 30%;
+background-color: white;
+width: 20%;
 min-height: 600px;
 padding: 10px;
 border-right: 2px solid #CCCCCC;
@@ -156,8 +159,21 @@ float: left;
 
 #avatar{
 float: left;
+width: 80%;
+height: 25%;
 }
 
+#portal_header{
+    height: 70px; /*percentage wont work. why?*/
+    background-color: #3d4e5b;
+    text-align: right;
+}
+
+#portal_dropdown{
+    float: right;
+
+
+}
 #name{
 padding: 3px;
 float: right;
@@ -169,7 +185,7 @@ width: 180px;
 
 
 #moveright{
-width: 70%;
+width: 80%;
 padding: 10px;
 color: #000;
 float: right;
@@ -187,12 +203,10 @@ text-align: left;
 }
 
 #moveright3{
-width: 290px;
+width: 40%;
+height: 50%;
 padding: 10px;
-color: #000;
 float: right;
-font-size: 16px;
-text-align: left;
 }
 
 th{

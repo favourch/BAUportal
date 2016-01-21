@@ -33,7 +33,7 @@ if(mysql_num_rows($result) > 0)
 	else
 	{
 	
-	Header("Location:index.php");
+	Header("Location:../index_x.php");
 	mysql_close();
 	
 	}

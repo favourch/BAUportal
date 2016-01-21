@@ -33,3 +33,21 @@ include "../userToInclude.php"
 </tr>
 </table>
 </div>
+
+<div id= 'moveright3'>
+	<div id="avatar">
+	<?php
+	echo '
+	    <div>
+	        <div class="thumbnail">
+	            <img src="'.$photo.'" />
+	            <div class="caption">
+	                <p> '.$first.''.$last.' </p>
+	            </div>
+	        </div>
+	    </div>
+
+	';
+	?>
+	</div>
+</div>

@@ -24,9 +24,6 @@ $results = mysql_query("SELECT * FROM students,accounts WHERE students.id='$user
 <?php $pagetoptitle = 'Member Page'; ?>
 <?php include("../top.php"); ?>
 
-<br />
-<p></p>
-
 <div id="moveleft">
 
 <div id="avatar">
@@ -55,7 +52,7 @@ echo '<a href="update.php">Update Information</a>';
 <hr />
 <div id="pagetitle">MENU</div>
 <br />
-<div id="menu"><a href="profile.php">HOME</a></div>
+<div id="menu"><a href="sidebar.php">HOME</a></div>
 <br />
 <div id="menu"><a href="academics.php">ACADEMICS</a></div>
 <br />

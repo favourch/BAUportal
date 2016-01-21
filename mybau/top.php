@@ -72,10 +72,4 @@ function hideDiv5() {
 
 <body ng-app='myApp'>
 
-<div id="header">
-<!--img src="http://test.bau.edu.ng/mybau/images/header.png" alt="BAU Online Logo" /> </a-->
 
-<br />
-<br/>
-<br/>
-</div>
