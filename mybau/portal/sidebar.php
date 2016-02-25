@@ -82,7 +82,7 @@ echo '<a href="update.php">Update Information</a>';
         <ul class="nav nav-tabs nav-stacked">
 
             <li role="presentation" >
-                <a href="sidebar.php"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a>
+                <a href="sidebar.php#/personal"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a>
             </li>
             <li role="presentation" >
                 <a href="academics.php"> <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Academic Info</a>
@@ -100,9 +100,9 @@ echo '<a href="update.php">Update Information</a>';
 </div>
 
 <?php include("portal_header.php"); ?>
-<div id="moveright">
+<div id="moveright" ng-app='myApp'>
 <ul class="nav nav-tabs">
-  <li role="presentation" ><a href="#home">Personal</a></li>
+  <li role="presentation" ><a href="#personal">Personal</a></li>
   <li role="presentation"><a href="#academic">Academic</a></li>
   <li role="presentation"><a href="#docs">Documents</a></li>
 <li role="presentation"><a href="#guardian">Guradian</a></li>

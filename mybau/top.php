@@ -7,6 +7,8 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link href="http://test.bau.edu.ng/mo_tweaking/mybau/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="http://test.bau.edu.ng/mo_tweaking/mybau/style.css" />
+<link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon">
+<link rel="icon" href="./images/logo.ico" type="image/x-icon">
 
 
 <script>
@@ -70,6 +72,16 @@ function hideDiv5() {
 
 </head>
 
-<body ng-app='myApp'>
+<body >
+<nav class="navbar navbar-default" id="navbar">
+  <div class="container-fluid">
+    
+      <a  href="#">
+        <img alt="BAU" src="./images/logo2.ico" class="nav_img">
+
+      </a>
+   
+  </div>
+</nav>
 
 

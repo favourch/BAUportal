@@ -74,6 +74,22 @@ padding:20%;
 background-image:url('images/bg.jpg');
 }
 
+#navbar{
+    height: 10%;
+    background-color: #3d4e5b;
+}
+
+.nav_img{
+    float: left;
+    height: 50px;
+    padding: 7px 7px;
+    font-size: 18px;
+    line-height: 20px;   
+}  
+#brand_name{
+    height:50px;
+    width:20%;
+}
 
 
 /** Set Footer Properties **/

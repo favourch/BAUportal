@@ -3,20 +3,20 @@
 <div id="wrapper2">
 <div id='content'>
   <div id="pagetitle">
-    <img id="pagetitleimg" src='./images/Bau_onlineLogo2.png' alt="BAU Logo">
+    <!--img id="pagetitleimg" src='./images/Bau_onlineLogo2.png' alt="BAU Logo"-->
     <p >WELCOME TO THE STUDENTS PORTAL OF BAU Online</p>
   </div>
   <hr /><br />
 
-<div class="row">
+<div class="row" ng-app='landingPage'>
   <div class="col-sm-4 col-md-4 col-lg-4">
     <ul class="nav nav-tabs nav-stacked">
-      <li role="presentation" class="active"><a href="#">Student Info</a></li>
-      <li role="presentation"><a href="./index_x.php">LogIn</a></li>
+      <li role="presentation" class="active"><a href="#studentInfo">Student Info</a></li>
+      <li role="presentation"><a href="#login_user">LogIn</a></li>
     </ul>
   </div>
   
-  <div class="col-sm-8 col-md-8 col-lg-8">
+  <!--div class="col-sm-8 col-md-8 col-lg-8">
     <div id="info">
       <b>GENERAL STUDENTS INFORMATION</b>
       <hr />
@@ -42,7 +42,8 @@
 
       ?>
     </div>
-  </div>
+  </div-->
+  <div ng-view=" "></div>
 </div>
   
 
